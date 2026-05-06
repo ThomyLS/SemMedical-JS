@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/55d7eefebd.js" crossorigin="anonymous"></script>
+    <title>Catalogo - Sem Medical</title>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="encabezado">
+            <img src="./img/logo.png" class="logo" alt="logo en de la empresa Sem Medical">
+
+            <ul class="pages">
+                <li><a>Inicio</a></li>
+                <li><a>Nosotros</a></li>
+                <li><a>Catalogo</a></li>
+                <li><a>Marcas</a></li>
+                <li><a>Contactanos</a></li>
+            </ul>
+
+            <div class="iconos">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <div class="carro">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <div class="contNoti"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="containerCatalogo">
+
+        <h1>Nuestros productos</h1>
+
+        <div id="contenedorProd" class="container"></div>
+
+    </main>
+
+    <div class="overlay"></div>
+
+    <section class="carrito">
+        <div class="panelHead">
+            <button class="cerrarCarrito">x</button>
+
+            <h3>Mi carrito</h3>
+
+            <i class="vaciarCarrito fa-regular fa-trash-can"></i>
+        </div>
+
+        <div class="productosCarrito"></div>
+
+        <div class="carritoFooter">
+            <div class="totalCont">
+                <p class="totalView">Total:</p>
+
+                <div class="total"></div>
+            </div>
+
+            <button class="finalizarCompra"> Finalizar compra </button>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

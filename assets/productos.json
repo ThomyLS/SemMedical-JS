@@ -1,0 +1,16 @@
+[
+    { "id": 1, "titulo": "Fragancia Femenina", "precio": 5000, "imagen": "../img/productos/item1.png" },
+    { "id": 2, "titulo": "Abrillantador", "precio": 3300, "imagen": "../img/productos/item2.png" },
+    { "id": 3, "titulo": "Combo de 3 productos", "precio": 5500, "imagen": "../img/productos/item3.jpeg" },
+    { "id": 4, "titulo": "Mini-Sprays", "precio": 1500, "imagen": "../img/productos/item4.jpeg" },
+    { "id": 5, "titulo": "Aromas de bebe", "precio": 4500, "imagen": "../img/productos/item5.png" },
+    { "id": 6, "titulo": "Fragancia masculina", "precio": 5500, "imagen": "../img/productos/item6.jpeg" },
+    { "id": 7, "titulo": "Muestra de aroma", "precio": 2300, "imagen": "../img/productos/item7.jpeg" },
+    { "id": 8, "titulo": "Aromatizadores para auto", "precio": 1000, "imagen": "../img/productos/item8.jpeg" },
+    { "id": 9, "titulo": "Aromas", "precio": 3300, "imagen": "../img/productos/item9.jpeg" },
+    { "id": 10, "titulo": "Perfume Gizon", "precio": 6000, "imagen": "../img/productos/item10.png" },
+    { "id": 11, "titulo": "Sprays", "precio": 3500, "imagen": "../img/productos/item11.jpeg" },
+    { "id": 12, "titulo": "Combo de aromas", "precio": 6000, "imagen": "../img/productos/item13.jpeg" },
+    { "id": 13, "titulo": "Difuminadores", "precio": 3500, "imagen": "../img/productos/item14.jpeg" },
+    { "id": 14, "titulo": "Combo de 4 productos", "precio": 6500, "imagen": "../img/productos/item15.jpeg" }
+]
