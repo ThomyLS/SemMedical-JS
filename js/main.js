@@ -9,7 +9,11 @@ async function cargarProductos() {
         renderProductos();
 
     } catch (error) {
-        console.log("Error cargando productos:", error);
+    Swal.fire({
+        title: "Error",
+        text: "No se pudieron cargar los productos",
+        icon: "error"
+    });
     }
 }
 
